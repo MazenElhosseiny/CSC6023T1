@@ -11,12 +11,9 @@ def MCSS(a):
     return largest
 
 def main():
-    a = [5, -1, 56, -3, -18, 22, -9]
-    b = [-2, 11, -4, 13, -5, 2]
     nums = []
     for i in range(1000):
         nums.append(random.randint(-500, 500))
-    
     
     print(nums)
     print(MCSS(nums))
